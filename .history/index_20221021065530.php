@@ -20,8 +20,8 @@ if (isset($_GET['act'])) {
     $number = 0;
     switch ($act) {
         case 'home':
-            include "./view/slide.php";
-            include "./view/content.php";
+            include "./";
+            include "./content.php";
 
             break;
         case 'sanpham':

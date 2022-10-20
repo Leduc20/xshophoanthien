@@ -10,7 +10,7 @@
                 </p> -->
             </div>
             <!--show Product -->
-            <img src="./upload/" alt="">
+            <img src="../upload/" alt="">
             <div class="flex justify-between grid grid-cols-1 gap-4 md:grid-cols-3 gap-6 mt-6">
                 <?php foreach ($showProducts as $show) {
 

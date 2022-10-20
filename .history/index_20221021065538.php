@@ -21,7 +21,7 @@ if (isset($_GET['act'])) {
     switch ($act) {
         case 'home':
             include "./view/slide.php";
-            include "./view/content.php";
+            include "./content.php";
 
             break;
         case 'sanpham':

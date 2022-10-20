@@ -16,7 +16,7 @@
 
                     extract($show);
                     $linksp = "index.php?act=detail&id_hh=" . $id_hh;
-                    $img = "./upload/" . $image;
+                    $img = "../upload/" . $image;
                     // img la ten bien lay ra anh
                     // image Day la ten cot trong database
                     // var_dump($img);

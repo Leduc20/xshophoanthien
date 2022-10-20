@@ -18,7 +18,7 @@
         <div class="w-[20%]">
             <ul>
                 <li class="ml-[10px] py-3 ml-1 border-[1px] bg-slate-300 rounded-[3px] font-bold hover:bg-white">
-                    <a class="no-underline text-black" href="../../Xshop-HT/"><i class="fa-solid fa-house"></i>Trở về Website</a>
+                    <a class="no-underline text-black" href="../../recodeXshopdemo/"><i class="fa-solid fa-house"></i>Trở về Website</a>
                 </li>
                 <li class="ml-[10px] py-3 ml-1 border-[1px] bg-slate-300 rounded-[3px] font-bold hover:bg-white">
                     <a class="no-underline text-black" href="index.php"><i class="fa-solid fa-store"></i>Trang chủ</a>

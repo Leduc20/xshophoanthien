@@ -20,7 +20,7 @@
                             <li class="py-4 bg-sky-400 mb-2 mt-2 border rounded w-[40%]"><a class="px-4" href="index.php?act=qmk">Quên mật khẩu</a></li>
                             <?php
                             if ($role == 1) { ?>
-                                <li class="py-4 bg-sky-400 mb-2 mt-2 border rounded w-[40%]"><a class="px-4" href="../../Xshop-HT/admin/index.php">Đăng nhập admin</a></li>
+                                <li class="py-4 bg-sky-400 mb-2 mt-2 border rounded w-[40%]"><a class="px-4" href="../../Xshop-H/admin/index.php">Đăng nhập admin</a></li>
 
                             <?php } ?>
                             <li class="py-4 bg-sky-400 mb-2 mt-2 border rounded w-[40%]"><a class="px-4" href="index.php?act=thoat">Đăng xuất</a></li>
