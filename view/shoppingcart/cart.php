@@ -43,12 +43,12 @@
                         <td>   </td>
                         <td>
                             <a href="index.php?act=home">
-                                <input type="button" class="btn bg-sky-300 hover:bg-emerald-800 hover:text-white" value="Tiếp tục mua hàng">
+                                <input type="button" class="btn bg-sky-300 border border-[2px] hover:bg-emerald-800 hover:text-white" value="Tiếp tục mua hàng">
                             </a>
                         </td>
                         <td>
                             <a href="index.php?act=bill">
-                                <input type="button" class="btn bg-sky-300 hover:bg-emerald-800 hover:text-white" value="Tiến hành đăt hàng">
+                                <input type="button" class="btn bg-sky-300 border border-[2px] hover:bg-emerald-800 hover:text-white" value="Tiến hành đăt hàng">
                             </a>
                         </td>
                         <!-- <td>

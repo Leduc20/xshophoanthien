@@ -368,7 +368,7 @@
                         foreach ($top10 as $show) {
                             extract($show);
                             $linksp = "index.php?act=detail&id_hh=" . $id_hh;
-                            $img = $img_path . $image;
+                            $img = "./upload/" . $image;
                             echo '
                             <li class="item-a">
                             <!--box-slider--------------->

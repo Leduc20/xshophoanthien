@@ -10,12 +10,12 @@ function tongdonhang()
 }
 function viewcart($del)
 {
-    global $img_path;
+    // global $img_path;
     $sumall = 0;
     $i = 0;
     foreach ($_SESSION['mycart'] as $show) {
         // Mặc du báo lỗi không hiểu biến $img_path nhưng vẫn cho ra kết quả đúng là đường dẫn ảnh
-        $img = $img_path_cart . $show[2];
+        $img =$show[2];
         $sum = $show[3] * $show[4];
         $sumall += $sum;
         if ($del == 1) {
@@ -43,7 +43,6 @@ function viewcart($del)
             <a class="thumbnail pull-left" href="#"> <img class="media-object w-[180px]" src="' . $img . '" "> </a>
             <div class="media-body">
                 <h4 class="media-heading"><a href="#">' . $show[1] . '</a></h4>
-                <h5 class="media-heading"> by <a href="#">Brand name</a></h5>
                 <!-- <span>Status: </span><span class="text-success"><strong>In Stock</strong></span> -->
             </div>
         </div></td>

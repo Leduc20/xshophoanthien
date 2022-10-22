@@ -7,7 +7,7 @@ include "./model/products.php";
 include "./model/line.php";
 include "./model/account.php";
 include "./model/cart.php";
-// include "./global.php";
+include "./view/global_cart.php";
 include "global.php";
 
 if (!isset($_SESSION['mycart'])) $_SESSION['mycart'] = [];
@@ -122,7 +122,7 @@ if (isset($_GET['act'])) {
                 $image = $_POST['image'];
                 $id = $_POST['id'];
                 // $=$_POST[''];
-                $soluong = 4;
+                $soluong = 1;
                 $sum = $soluong * $price;
                 $add_cart = [$id, $name, $image, $price, $soluong, $sum];
                 array_push($_SESSION['mycart'], $add_cart);

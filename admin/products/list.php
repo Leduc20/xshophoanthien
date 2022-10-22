@@ -92,7 +92,6 @@
                                                 </th>
                                                 <th scope="col" class="py-3 px-6">
                                                     Edit
-                                        <img src="../../view/upload/" alt="">
 
                                                 </th>
                                             </tr>
